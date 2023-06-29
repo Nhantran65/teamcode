@@ -1,0 +1,64 @@
+﻿# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# It's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editors #
+############
+*.swp
+*~.nib
+*.swp
+*.bak
+*.tmp
+
+# IDEs #
+#########
+.idea/
+.vscode/
+
+# Build tools #
+##############
+build/
+dist/
+node_modules/
+
+# Dependency files #
+###################
+package-lock.json
+yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
