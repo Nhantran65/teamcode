@@ -8,13 +8,11 @@ End Code
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <title>DanhSachTinTuc</title>
 </head>
 <body>
     <div> 
-        <h1>
-            Trang Home Index
-        </h1>
+        Danh Sach Tin Tuc 
     </div>
 </body>
 </html>

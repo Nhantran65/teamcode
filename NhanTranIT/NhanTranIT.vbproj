@@ -120,6 +120,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="Controllers\HomeController.vb" />
+    <Compile Include="Controllers\TinTucController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -163,7 +164,11 @@
     </None>
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
-    <Content Include="Views\Home\Index.vbhtml" />
+    <Content Include="Views\Home\TrangChu.vbhtml" />
+    <Content Include="Views\Home\GioiThieu.vbhtml" />
+    <Content Include="Views\TinTuc\DanhSachTinTuc.vbhtml" />
+    <Content Include="Views\TinTuc\NoiDungTin.vbhtml" />
+    <Content Include="Views\Home\DangNhap.vbhtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
