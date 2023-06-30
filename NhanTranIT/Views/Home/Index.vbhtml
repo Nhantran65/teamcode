@@ -1,6 +1,7 @@
 ﻿
 @Code
     Layout = "~/Views/Shared/LayoutUser.vbhtml"
+    ViewBag.title = "Home"
 End Code
 
       <!-- banner section start -->

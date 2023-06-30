@@ -1,6 +1,5 @@
 ﻿@code
-    Dim myVariable As Integer = 10
-    myVariable = myVariable + 5
+    ViewBag.btn = "LOGIN"
 
 End Code
 
@@ -15,7 +14,7 @@ End Code
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>About</title>
+    <title>@ViewBag.title </title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -69,7 +68,7 @@ End Code
                     <div class="search_icon">
                         <ul>
                             <li><a href="#"><img src="~/images/search-icon.png"></a></li>
-                            <li><a href="#">LOGIN</a></li>
+                            <li><a href="#">@ViewBag.btn </a></li>
                         </ul>
                     </div>
                 </div>
