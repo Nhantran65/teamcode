@@ -114,13 +114,75 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="css\animate.min.css" />
+    <Content Include="css\bootstrap-grid.css" />
+    <Content Include="css\bootstrap-grid.min.css" />
+    <Content Include="css\bootstrap-reboot.css" />
+    <Content Include="css\bootstrap-reboot.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\default-skin.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\icomoon.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\jquery.fancybox.min.css" />
+    <Content Include="css\jquery.mCustomScrollbar.min.css" />
+    <Content Include="css\meanmenu.css" />
+    <Content Include="css\nice-select.css" />
+    <Content Include="css\normalize.css" />
+    <Content Include="css\owl.carousel.min.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\slick.css" />
+    <Content Include="css\style.css" />
     <Content Include="Global.asax" />
+    <Content Include="images\banner-bg.png" />
+    <Content Include="images\banner-bg1.png" />
+    <Content Include="images\bg-1.png" />
+    <Content Include="images\contact-bg.png" />
+    <Content Include="images\fb-icon.png" />
+    <Content Include="images\footer-logo.png" />
+    <Content Include="images\header-bg.png" />
+    <Content Include="images\icon-1.png" />
+    <Content Include="images\icon-2.png" />
+    <Content Include="images\icon-3.png" />
+    <Content Include="images\icon-4.png" />
+    <Content Include="images\img-1.png" />
+    <Content Include="images\img-2.png" />
+    <Content Include="images\img-3.png" />
+    <Content Include="images\img-4.png" />
+    <Content Include="images\img-5.png" />
+    <Content Include="images\img-6.png" />
+    <Content Include="images\img-7.png" />
+    <Content Include="images\img-8.png" />
+    <Content Include="images\img-9.png" />
+    <Content Include="images\instagram-icon.png" />
+    <Content Include="images\left-arrow.png" />
+    <Content Include="images\linkedin-icon.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\quote-icon.png" />
+    <Content Include="images\right-arrow.png" />
+    <Content Include="images\search-icon.png" />
+    <Content Include="images\twitter-icon.png" />
+    <Content Include="js\bootstrap.bundle.js" />
+    <Content Include="js\bootstrap.bundle.min.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\jquery-3.0.0.min.js" />
+    <Content Include="js\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.validate.js" />
+    <Content Include="js\modernizer.js" />
+    <Content Include="js\plugin.js" />
+    <Content Include="js\popper.min.js" />
+    <Content Include="js\slider-setting.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="Controllers\AboutController.vb" />
     <Compile Include="Controllers\HomeController.vb" />
-    <Compile Include="Controllers\TinTucController.vb" />
+    <Compile Include="Controllers\ServicesController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -153,6 +215,18 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\.DS_Store" />
+    <Content Include="css\bootstrap-grid.css.map" />
+    <Content Include="css\bootstrap-grid.min.css.map" />
+    <Content Include="css\bootstrap-reboot.css.map" />
+    <Content Include="css\bootstrap-reboot.min.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="css\bootstrap.min.css.map" />
+    <Content Include="js\.DS_Store" />
+    <Content Include="js\bootstrap.bundle.js.map" />
+    <Content Include="js\bootstrap.bundle.min.js.map" />
+    <Content Include="js\bootstrap.js.map" />
+    <Content Include="js\bootstrap.min.js.map" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -164,11 +238,9 @@
     </None>
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
-    <Content Include="Views\Home\TrangChu.vbhtml" />
-    <Content Include="Views\Home\GioiThieu.vbhtml" />
-    <Content Include="Views\TinTuc\DanhSachTinTuc.vbhtml" />
-    <Content Include="Views\TinTuc\NoiDungTin.vbhtml" />
-    <Content Include="Views\Home\DangNhap.vbhtml" />
+    <Content Include="Views\Home\Index.vbhtml" />
+    <Content Include="Views\About\Index.vbhtml" />
+    <Content Include="Views\Services\Index.vbhtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

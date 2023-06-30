@@ -1,20 +1,12 @@
 ﻿Imports System.Web.Mvc
 
 Namespace Controllers
-    Public Class HomeController
+    Public Class ServicesController
         Inherits Controller
 
-        ' GET: Home
-
-
-
+        ' GET: Services
         Function Index() As ActionResult
-
             Return View()
-
-
         End Function
-
-
     End Class
 End Namespace
