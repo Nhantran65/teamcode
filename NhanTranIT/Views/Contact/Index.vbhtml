@@ -14,7 +14,7 @@ End Code
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>Services</title>
+    <title>Contact</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -76,50 +76,27 @@ End Code
         </div>
     </div>
     <!-- header section end -->
-    <!-- services section start -->
-    <div class="services_section layout_padding">
+    <!-- contact section start -->
+    <div class="contact_section layout_padding">
         <div class="container">
-            <h1 class="services_taital">our services</h1>
-            <p class="many_taital">There are many variations of passages of Lorem Ipsum </p>
-            <div class="services_section2 layout_padding">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="icon_1"><img src="~/images/icon-1.png"></div>
-                        <h2 class="furnitures_text">Furnitures</h2>
-                        <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the</p>
-                        <div class="read_bt_main">
-                            <div class="read_bt"><a href="#">Read More</a></div>
-                        </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="contact_text">CONTACT US</h1>
+                    <div class="mail_sectin">
+                        <input type="text" class="email-bt" placeholder="Name" name="Name">
+                        <input type="text" class="email-bt" placeholder="Email" name="Name">
+                        <input type="text" class="email-bt" placeholder="Phone Number" name="Name">
+                        <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+                        <div class="send_bt"><a href="#">SEND</a></div>
                     </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="icon_1"><img src="~/images/icon-2.png"></div>
-                        <h2 class="furnitures_text">office</h2>
-                        <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the</p>
-                        <div class="read_bt_main">
-                            <div class="read_bt"><a href="#">Read More</a></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="icon_1"><img src="~/images/icon-3.png"></div>
-                        <h2 class="furnitures_text">Home</h2>
-                        <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the</p>
-                        <div class="read_bt_main">
-                            <div class="read_bt"><a href="#">Read More</a></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="icon_1"><img src="~/images/icon-4.png"></div>
-                        <h2 class="furnitures_text">badroom</h2>
-                        <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the</p>
-                        <div class="read_bt_main">
-                            <div class="read_bt"><a href="#">Read More</a></div>
-                        </div>
-                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image_9"><img src="~/images/img-9.png"></div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- services section end -->
+    <!-- contact section end -->
     <!-- footer section start -->
     <div class="footer_section layout_padding">
         <div class="container">

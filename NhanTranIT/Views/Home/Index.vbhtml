@@ -50,16 +50,16 @@ End Code
                             <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="~/services">services</a>
+                            <a class="nav-link" href="~/Services">services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="~/About">About</a>
-                        </li>   
-                        <li class="nav-item">
-                            <a class="nav-link" href="shop.html">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="~/Shop">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/Contact">Contact</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
@@ -137,7 +137,7 @@ End Code
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
-                        <div class="icon_1"><img src="images/icon-3.png"></div>
+                        <div class="icon_1"><img src="~/images/icon-3.png"></div>
                         <h2 class="furnitures_text">Home</h2>
                         <p class="dummy_text">There are many variations of passages of Lorem Ipsum available, but the</p>
                         <div class="read_bt_main">
@@ -574,16 +574,16 @@ End Code
         </div>
         <!-- copyright section end -->
         <!-- Javascript files-->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/jquery-3.0.0.min.js"></script>
-        <script src="js/plugin.js"></script>
+        <script src="~/js/jquery.min.js"></script>
+        <script src="~/js/popper.min.js"></script>
+        <script src="~/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/jquery-3.0.0.min.js"></script>
+        <script src="~/js/plugin.js"></script>
         <!-- sidebar -->
-        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script src="js/custom.js"></script>
+        <script src="~/js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="~/js/custom.js"></script>
         <!-- javascript -->
-        <script src="js/owl.carousel.js"></script>
+        <script src="~/js/owl.carousel.js"></script>
         <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 </body>
 </html>

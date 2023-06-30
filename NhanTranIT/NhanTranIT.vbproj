@@ -181,8 +181,10 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="Controllers\AboutController.vb" />
+    <Compile Include="Controllers\ContactController.vb" />
     <Compile Include="Controllers\HomeController.vb" />
     <Compile Include="Controllers\ServicesController.vb" />
+    <Compile Include="Controllers\ShopController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -241,6 +243,9 @@
     <Content Include="Views\Home\Index.vbhtml" />
     <Content Include="Views\About\Index.vbhtml" />
     <Content Include="Views\Services\Index.vbhtml" />
+    <Content Include="Views\Shop\Index.vbhtml" />
+    <Content Include="Views\Contact\Index.vbhtml" />
+    <None Include="Views\Shared\LayoutUser.vbhtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

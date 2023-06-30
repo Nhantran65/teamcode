@@ -55,11 +55,11 @@ End Code
                         <li class="nav-item">
                             <a class="nav-link" href="~/About">About</a>
                         </li>
-                        <li class="nav-item">           
-                            <a class="nav-link" href="shop.html">Shop</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/Shop">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="~/Contact">Contact</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
